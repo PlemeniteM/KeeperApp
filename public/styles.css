@@ -7,12 +7,14 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #eee;
+      background: linear-gradient(
+270deg
+,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
   padding: 0 16px;
 }
 
 header {
-  background-color: #f5ba13;
+  
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -49,8 +51,11 @@ footer p {
   margin-bottom: 6px;
 }
 .note p {
+  background-color: azure;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
   font-size: 1.1em;
   margin-bottom: 10px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+  /* white-space: pre-wrap;
+  word-wrap: break-word; */
 }
