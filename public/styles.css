@@ -9,7 +9,7 @@ html {
 body {
       background: linear-gradient(
 270deg
-,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+,#edca95 8%,#a0e9ff 20%,#a162e8 50%,#f093b0 70%,#edca85 88%);
   padding: 0 16px;
 }
 
@@ -24,8 +24,15 @@ header h1 {
   color: #fff;
   font-family: "McLaren", cursive;
   font-weight: 200;
+  text-align: center;
+  transition: 0.8s;
 }
+header :hover{
+color:black;
+ padding-left: 56px;
+    
 
+}
 footer {
   position: absolute;
   text-align: center;
@@ -38,7 +45,7 @@ footer p {
   color: #ccc;
 }
 .note {
-  background: #fff;
+  background: rgb(200 ,220 ,190);
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
